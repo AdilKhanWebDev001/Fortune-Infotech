@@ -1,0 +1,139 @@
+@media only screen and (max-width: 768px) {
+
+    .salute{
+       position: relative;
+       top: 50px;
+    }
+   
+    
+    .hero{
+       top: 0px;
+    }
+    nav{
+       margin-top: 0px;
+    }
+    .salute{
+       height: fit-content;
+    }
+    header{
+       height: 800px;
+       background-size: 800px;
+       background-repeat: no-repeat;
+    }
+   .logo img{
+       width: 120px;
+   }
+   .salute span:nth-child(1){
+       font-size: 55px;
+       padding-inline: 12px;
+   }
+   .salute span:nth-child(2){
+       font-size: 30px;
+       font-weight: 600;
+   }
+   .salute span:nth-child(3){
+       font-size: 35px;
+       font-weight: 500;
+   }
+   .salute span:nth-child(4){
+       margin-top: 32px;
+       font-size: 35px;
+       font-weight: 500;
+   }
+   .service{
+       position: absolute;
+       width: 100vw;
+       height: 80vh;
+       background-color: white;
+      background-size: cover;
+      background-position: bottom center;
+       top: 0px;
+       color: white;
+   
+     
+   }
+   .service h1{
+       font-size: 45px;
+   }
+   .gallery{
+       padding: 20px;
+         grid-template-columns: repeat(2, 1fr);
+         grid-auto-rows: 270px;
+         
+     }
+    #box-6 h3{
+       font-size: 16px;
+    }
+
+    .about-us{
+        height: 60vh;
+        position: absolute;
+        margin-top: 200px;
+    }
+
+    footer{
+        width: 100vw;
+        height: 60vh;
+        margin-top: 190px;
+    
+    }
+    .about-us h1{
+        font-size: 45px;
+    }
+    .about-us p{
+        font-size: 24px;
+    }
+
+
+   }
+   @media only screen and (max-width: 480px) {
+  
+       .gallery{
+           padding: 20px;
+             grid-template-columns: repeat(1, 1fr);
+             grid-auto-rows: 270px;
+             
+         }
+         .about-us{
+            margin-top: 1050px;
+            height: 400px;
+        }
+        footer{
+            position: absolute;
+          margin-top: 1100px;
+            height: 50vh;
+           
+        
+        }
+    .service{
+        height: 80vh;
+    }
+   }
+   @media only screen and (max-width: 1024px) {
+    .service{
+        top: 600px;
+    }
+    .about-us{
+        top: 1450px;
+    }
+    footer{
+        top: 1800px;
+        height: 300px;
+    }
+
+   }
+   
+   @media only screen and (min-width: 768px) {
+   nav .icon{
+       display: none;
+   }
+   }
+   
+   @media only screen and (max-width: 600px) {
+       nav .links{
+           display: none;
+       }
+   }
+   
+   
+   
